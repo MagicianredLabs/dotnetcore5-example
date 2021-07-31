@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.webapi", "it.example.dotnetcore5.webapi\it.example.dotnetcore5.webapi.csproj", "{2E7D00CB-1056-4BBF-86FB-A78552955B20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7650217-2A8A-433A-80FE-5B65D6292CDE} = {F7650217-2A8A-433A-80FE-5B65D6292CDE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.domain", "it.example.dotnetcore5.domain\it.example.dotnetcore5.domain.csproj", "{3D235E6B-9700-496E-843D-65DFA25A29B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.dal.json", "it.example.dotnetcore5.dal.json\it.example.dotnetcore5.dal.json.csproj", "{1719D4EB-4D89-404E-A5DC-DB28549EE89A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.dal.ef.mysql", "it.example.dotnetcore5.dal.ef.mysql\it.example.dotnetcore5.dal.ef.mysql.csproj", "{F7650217-2A8A-433A-80FE-5B65D6292CDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.dal.dapper", "it.example.dotnetcore5.dal.dapper\it.example.dotnetcore5.dal.dapper.csproj", "{1856B98B-C0E6-496C-B5AC-B8E64CE80CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.bl", "it.example.dotnetcore5.bl\it.example.dotnetcore5.bl.csproj", "{5F136938-24F0-4619-A68B-F78A1CACFCF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.dal.fake", "it.example.dotnetcore5.dal.fake\it.example.dotnetcore5.dal.fake.csproj", "{275F92EB-C3C7-4CBC-8454-BF52EE898FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "it.example.dotnetcore5.dal.ef.sqlserver", "it.example.dotnetcore5.dal.ef.sqlserver\it.example.dotnetcore5.dal.ef.sqlserver.csproj", "{C63DD986-35BB-401A-A72B-7072AB2FE62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "it.example.dotnetcore5.dal.ef.sqlite", "it.example.dotnetcore5.dal.ef.sqlite\it.example.dotnetcore5.dal.ef.sqlite.csproj", "{0F9CC34E-838D-4E89-BFAF-511A420839A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E7D00CB-1056-4BBF-86FB-A78552955B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7D00CB-1056-4BBF-86FB-A78552955B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7D00CB-1056-4BBF-86FB-A78552955B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7D00CB-1056-4BBF-86FB-A78552955B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D235E6B-9700-496E-843D-65DFA25A29B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D235E6B-9700-496E-843D-65DFA25A29B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D235E6B-9700-496E-843D-65DFA25A29B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D235E6B-9700-496E-843D-65DFA25A29B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1719D4EB-4D89-404E-A5DC-DB28549EE89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1719D4EB-4D89-404E-A5DC-DB28549EE89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1719D4EB-4D89-404E-A5DC-DB28549EE89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1719D4EB-4D89-404E-A5DC-DB28549EE89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7650217-2A8A-433A-80FE-5B65D6292CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7650217-2A8A-433A-80FE-5B65D6292CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7650217-2A8A-433A-80FE-5B65D6292CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7650217-2A8A-433A-80FE-5B65D6292CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1856B98B-C0E6-496C-B5AC-B8E64CE80CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1856B98B-C0E6-496C-B5AC-B8E64CE80CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1856B98B-C0E6-496C-B5AC-B8E64CE80CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1856B98B-C0E6-496C-B5AC-B8E64CE80CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F136938-24F0-4619-A68B-F78A1CACFCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F136938-24F0-4619-A68B-F78A1CACFCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F136938-24F0-4619-A68B-F78A1CACFCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F136938-24F0-4619-A68B-F78A1CACFCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275F92EB-C3C7-4CBC-8454-BF52EE898FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275F92EB-C3C7-4CBC-8454-BF52EE898FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275F92EB-C3C7-4CBC-8454-BF52EE898FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275F92EB-C3C7-4CBC-8454-BF52EE898FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63DD986-35BB-401A-A72B-7072AB2FE62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63DD986-35BB-401A-A72B-7072AB2FE62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63DD986-35BB-401A-A72B-7072AB2FE62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63DD986-35BB-401A-A72B-7072AB2FE62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9CC34E-838D-4E89-BFAF-511A420839A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9CC34E-838D-4E89-BFAF-511A420839A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9CC34E-838D-4E89-BFAF-511A420839A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9CC34E-838D-4E89-BFAF-511A420839A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4676E93-CC4A-4287-89B8-1893FF5FC6D0}
+	EndGlobalSection
+EndGlobal
