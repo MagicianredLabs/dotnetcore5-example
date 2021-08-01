@@ -12,22 +12,22 @@ using it.example.dotnetcore5.domain.Extensions;
 using it.example.dotnetcore5.bl.Extensions;
 
 // for fake repository
-//using it.example.dotnetcore5.dal.json.Extentions;
+using it.example.dotnetcore5.dal.fake.Extentions;
 
 // for dapper
 //using it.example.dotnetcore5.dal.dapper.Extentions;
 
 // for json file
-// using it.example.dotnetcore5.dal.json.Repositories;
+//using it.example.dotnetcore5.dal.json.Repositories;
 
 // for ef sql server repository
-// using it.example.dotnetcore5.dal.ef.sqlserver.Extensions;
+//using it.example.dotnetcore5.dal.ef.sqlserver.Extensions;
 
 // for ef mysql repository
 //using it.example.dotnetcore5.dal.ef.mysql.Extensions;
 
 // for ef sqlite repository
-using it.example.dotnetcore5.dal.ef.sqlite.Extensions;
+//using it.example.dotnetcore5.dal.ef.sqlite.Extensions;
 
 namespace it.example.dotnetcore5.webapi
 {
@@ -53,7 +53,7 @@ namespace it.example.dotnetcore5.webapi
             services.AddDomain();
 
             // add fake dal
-            //services.AddDalFake();
+            services.AddDalFake();
 
             // add dapper dal
             //services.AddDalDapper();
@@ -65,7 +65,7 @@ namespace it.example.dotnetcore5.webapi
             //services.AddDalMySql(Configuration.GetConnectionString("myBlog_mysql"));
 
             // add sqlite dal
-            services.AddDalSqlite(Configuration.GetConnectionString("myBlog_sqlite"));
+            //services.AddDalSqlite(Configuration.GetConnectionString("myBlog_sqlite"));
 
             // Configuration for Sql Server
             //services.AddDalSqlServer(Configuration.GetConnectionString("myBlog_mssql"));

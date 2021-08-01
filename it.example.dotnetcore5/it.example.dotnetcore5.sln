@@ -24,7 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.dal.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.dal.ef.sqlite", "it.example.dotnetcore5.dal.ef.sqlite\it.example.dotnetcore5.dal.ef.sqlite.csproj", "{0F9CC34E-838D-4E89-BFAF-511A420839A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "it.example.dotnetcore5.bl.tests.unit", "it.example.dotnetcore5.bl.tests.unit\it.example.dotnetcore5.bl.tests.unit.csproj", "{4714D384-B3D6-48FF-9D3B-4C3B867E635A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "it.example.dotnetcore5.bl.tests.unit", "it.example.dotnetcore5.bl.tests.unit\it.example.dotnetcore5.bl.tests.unit.csproj", "{4714D384-B3D6-48FF-9D3B-4C3B867E635A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "it.example.dotnetcore5.webapi.tests.integration", "it.example.dotnetcore5.webapi.tests.integration\it.example.dotnetcore5.webapi.tests.integration.csproj", "{A7177DE0-8E95-4A81-B4F0-17996B041186}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +74,10 @@ Global
 		{4714D384-B3D6-48FF-9D3B-4C3B867E635A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4714D384-B3D6-48FF-9D3B-4C3B867E635A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4714D384-B3D6-48FF-9D3B-4C3B867E635A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7177DE0-8E95-4A81-B4F0-17996B041186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7177DE0-8E95-4A81-B4F0-17996B041186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7177DE0-8E95-4A81-B4F0-17996B041186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7177DE0-8E95-4A81-B4F0-17996B041186}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
