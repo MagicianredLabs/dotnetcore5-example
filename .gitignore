@@ -127,3 +127,5 @@ dist
 /it.example.dotnetcore5/it.example.dotnetcore5.dal.ef.sqlserver/bin/Debug/net5.0
 /it.example.dotnetcore5/it.example.dotnetcore5.bl.tests.unit/bin/Debug/net5.0
 /it.example.dotnetcore5/it.example.dotnetcore5.bl.tests.unit/obj
+/it.example.dotnetcore5/it.example.dotnetcore5.webapi.tests.integration/bin/Debug/net5.0
+/it.example.dotnetcore5/it.example.dotnetcore5.webapi.tests.integration/obj

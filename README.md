@@ -139,3 +139,12 @@ Install the follow nuget package:
 
 
 ### Add Integration test project for WebApi layer
+
+Install the follow nuget package:
+- NUnit
+- NUnit3TestAdapter
+- NSubstitute
+- Microsoft.NET.Test.SDK (for using vs Test Explorer)
+- Microsoft.AspNetCore.MVC.Testing (for create a Test Server)
+
+When use test, re-configure Startup file in WebApi project, for example using a FakeRepository
