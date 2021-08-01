@@ -123,10 +123,19 @@ Install the follow nuget package:
 
 
 
-## Add Service project
+## Add BL project
 
 Add a new project *Class library (for .NET Standard or .NET Core)*, call it (for example: *it.example.dotnetcore5.bl*) and select *Target Framework* as *.NET 5.0 (Current)*
 
+### Add Unit test project for BL layer
+
+Install the follow nuget package:
+- NUnit
+- NUnit3TestAdapter
+- NSubstitute
+- Microsoft.NET.Test.SDK (for using vs Test Explorer)
 
 
-[TO COMPLETE]
+
+
+### Add Integration test project for WebApi layer
